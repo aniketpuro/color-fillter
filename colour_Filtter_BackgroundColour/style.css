@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f8;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: white;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main content styles */
+.container {
+    text-align: center;
+    padding: 3rem;
+}
+
+.color {
+    font-weight: bold;
+}
+
+/* Button styles */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+* Language button styles */
+.btn-lang {
+    margin-top: 20px;
+    background-color: #6c757d;
+}
+
+.btn-lang:hover {
+    background-color: #555e64;
+}
