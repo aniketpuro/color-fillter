@@ -1,4 +1,4 @@
-# color-
+# color-fillter
 
 "first of all I did'nt repo name as color flipper ,so I used color-flitter."
 
